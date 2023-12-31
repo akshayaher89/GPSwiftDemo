@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5018F92B3DF31F006EFC98 /* GPSwiftDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */; };
+		AE5018FB2B3DF31F006EFC98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5018FA2B3DF31F006EFC98 /* ContentView.swift */; };
+		AE5018FD2B3DF320006EFC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5018FC2B3DF320006EFC98 /* Assets.xcassets */; };
+		AE5019012B3DF320006EFC98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5019002B3DF320006EFC98 /* Preview Assets.xcassets */; };
+		AE50190B2B3DF320006EFC98 /* GPSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50190A2B3DF320006EFC98 /* GPSwiftDemoTests.swift */; };
+		AE5019152B3DF320006EFC98 /* GPSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019142B3DF320006EFC98 /* GPSwiftDemoUITests.swift */; };
+		AE5019172B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */; };
+		AE5019242B3F3D69006EFC98 /* SummaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019232B3F3D69006EFC98 /* SummaryListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5019072B3DF320006EFC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5018ED2B3DF31F006EFC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5018F42B3DF31F006EFC98;
+			remoteInfo = GPSwiftDemo;
+		};
+		AE5019112B3DF320006EFC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5018ED2B3DF31F006EFC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5018F42B3DF31F006EFC98;
+			remoteInfo = GPSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE5018F52B3DF31F006EFC98 /* GPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoApp.swift; sourceTree = "<group>"; };
+		AE5018FA2B3DF31F006EFC98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE5018FC2B3DF320006EFC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5018FE2B3DF320006EFC98 /* GPSwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPSwiftDemo.entitlements; sourceTree = "<group>"; };
+		AE5019002B3DF320006EFC98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5019062B3DF320006EFC98 /* GPSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50190A2B3DF320006EFC98 /* GPSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoTests.swift; sourceTree = "<group>"; };
+		AE5019102B3DF320006EFC98 /* GPSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5019142B3DF320006EFC98 /* GPSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE5019232B3F3D69006EFC98 /* SummaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5018F22B3DF31F006EFC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5019032B3DF320006EFC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50190D2B3DF320006EFC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5018EC2B3DF31F006EFC98 = {
+			isa = PBXGroup;
+			children = (
+				AE5018F72B3DF31F006EFC98 /* GPSwiftDemo */,
+				AE5019092B3DF320006EFC98 /* GPSwiftDemoTests */,
+				AE5019132B3DF320006EFC98 /* GPSwiftDemoUITests */,
+				AE5018F62B3DF31F006EFC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5018F62B3DF31F006EFC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5018F52B3DF31F006EFC98 /* GPSwiftDemo.app */,
+				AE5019062B3DF320006EFC98 /* GPSwiftDemoTests.xctest */,
+				AE5019102B3DF320006EFC98 /* GPSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5018F72B3DF31F006EFC98 /* GPSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */,
+				AE5019232B3F3D69006EFC98 /* SummaryListView.swift */,
+				AE5018FA2B3DF31F006EFC98 /* ContentView.swift */,
+				AE5018FC2B3DF320006EFC98 /* Assets.xcassets */,
+				AE5018FE2B3DF320006EFC98 /* GPSwiftDemo.entitlements */,
+				AE5018FF2B3DF320006EFC98 /* Preview Content */,
+			);
+			path = GPSwiftDemo;
+			sourceTree = "<group>";
+		};
+		AE5018FF2B3DF320006EFC98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE5019002B3DF320006EFC98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE5019092B3DF320006EFC98 /* GPSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE50190A2B3DF320006EFC98 /* GPSwiftDemoTests.swift */,
+			);
+			path = GPSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		AE5019132B3DF320006EFC98 /* GPSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5019142B3DF320006EFC98 /* GPSwiftDemoUITests.swift */,
+				AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */,
+			);
+			path = GPSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5018F42B3DF31F006EFC98 /* GPSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50191A2B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemo" */;
+			buildPhases = (
+				AE5018F12B3DF31F006EFC98 /* Sources */,
+				AE5018F22B3DF31F006EFC98 /* Frameworks */,
+				AE5018F32B3DF31F006EFC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSwiftDemo;
+			productName = GPSwiftDemo;
+			productReference = AE5018F52B3DF31F006EFC98 /* GPSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5019052B3DF320006EFC98 /* GPSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50191D2B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemoTests" */;
+			buildPhases = (
+				AE5019022B3DF320006EFC98 /* Sources */,
+				AE5019032B3DF320006EFC98 /* Frameworks */,
+				AE5019042B3DF320006EFC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5019082B3DF320006EFC98 /* PBXTargetDependency */,
+			);
+			name = GPSwiftDemoTests;
+			productName = GPSwiftDemoTests;
+			productReference = AE5019062B3DF320006EFC98 /* GPSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE50190F2B3DF320006EFC98 /* GPSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5019202B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemoUITests" */;
+			buildPhases = (
+				AE50190C2B3DF320006EFC98 /* Sources */,
+				AE50190D2B3DF320006EFC98 /* Frameworks */,
+				AE50190E2B3DF320006EFC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5019122B3DF320006EFC98 /* PBXTargetDependency */,
+			);
+			name = GPSwiftDemoUITests;
+			productName = GPSwiftDemoUITests;
+			productReference = AE5019102B3DF320006EFC98 /* GPSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5018ED2B3DF31F006EFC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AE5018F42B3DF31F006EFC98 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AE5019052B3DF320006EFC98 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE5018F42B3DF31F006EFC98;
+					};
+					AE50190F2B3DF320006EFC98 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE5018F42B3DF31F006EFC98;
+					};
+				};
+			};
+			buildConfigurationList = AE5018F02B3DF31F006EFC98 /* Build configuration list for PBXProject "GPSwiftDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5018EC2B3DF31F006EFC98;
+			productRefGroup = AE5018F62B3DF31F006EFC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5018F42B3DF31F006EFC98 /* GPSwiftDemo */,
+				AE5019052B3DF320006EFC98 /* GPSwiftDemoTests */,
+				AE50190F2B3DF320006EFC98 /* GPSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5018F32B3DF31F006EFC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5019012B3DF320006EFC98 /* Preview Assets.xcassets in Resources */,
+				AE5018FD2B3DF320006EFC98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5019042B3DF320006EFC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50190E2B3DF320006EFC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5018F12B3DF31F006EFC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5018FB2B3DF31F006EFC98 /* ContentView.swift in Sources */,
+				AE5018F92B3DF31F006EFC98 /* GPSwiftDemoApp.swift in Sources */,
+				AE5019242B3F3D69006EFC98 /* SummaryListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5019022B3DF320006EFC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50190B2B3DF320006EFC98 /* GPSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50190C2B3DF320006EFC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5019172B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift in Sources */,
+				AE5019152B3DF320006EFC98 /* GPSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5019082B3DF320006EFC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5018F42B3DF31F006EFC98 /* GPSwiftDemo */;
+			targetProxy = AE5019072B3DF320006EFC98 /* PBXContainerItemProxy */;
+		};
+		AE5019122B3DF320006EFC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5018F42B3DF31F006EFC98 /* GPSwiftDemo */;
+			targetProxy = AE5019112B3DF320006EFC98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE5019182B3DF320006EFC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE5019192B3DF320006EFC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE50191B2B3DF320006EFC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPSwiftDemo/GPSwiftDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPSwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE50191C2B3DF320006EFC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPSwiftDemo/GPSwiftDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPSwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE50191E2B3DF320006EFC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPSwiftDemo";
+			};
+			name = Debug;
+		};
+		AE50191F2B3DF320006EFC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPSwiftDemo";
+			};
+			name = Release;
+		};
+		AE5019212B3DF320006EFC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSwiftDemo;
+			};
+			name = Debug;
+		};
+		AE5019222B3DF320006EFC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VPE3RYWDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gp.GPSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5018F02B3DF31F006EFC98 /* Build configuration list for PBXProject "GPSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5019182B3DF320006EFC98 /* Debug */,
+				AE5019192B3DF320006EFC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50191A2B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50191B2B3DF320006EFC98 /* Debug */,
+				AE50191C2B3DF320006EFC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50191D2B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50191E2B3DF320006EFC98 /* Debug */,
+				AE50191F2B3DF320006EFC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5019202B3DF320006EFC98 /* Build configuration list for PBXNativeTarget "GPSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5019212B3DF320006EFC98 /* Debug */,
+				AE5019222B3DF320006EFC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5018ED2B3DF31F006EFC98 /* Project object */;
+}
