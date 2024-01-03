@@ -2,34 +2,63 @@
 //  GPSwiftDemoTests.swift
 //  GPSwiftDemoTests
 //
-//  Created by AUI Tech on 28/12/23.
+//  
 //
 
 import XCTest
 
 final class GPSwiftDemoTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testFormattedLaunchDate_With_ValidDate() {
+        let viewModel = MissionViewModel()
+        
+        // Test with a valid date
+        let formattedDate = viewModel.formattedLaunchDate(launchDate: "2022-01-01T12:34:56.789Z")
+        XCTAssertEqual(formattedDate, "1/1/22, 6:04 PM")
+        
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testFormattedLaunchDate_With_InvalidDate() {
+        
+        let viewModel = MissionViewModel()
+        // Test with an invalid date
+        let invalidFormattedDate = viewModel.formattedLaunchDate(launchDate: "invalidDate")
+        XCTAssertNil(invalidFormattedDate)
     }
+    
+    func testSortMissions() {
+            let viewModel = MissionViewModel()
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+            // Create sample missions
+            let mission1 = Mission(mission_name: "Mission 1", launch_date_utc: "2022-01-01T12:00:00.000Z", rocket: nil, links: nil, launch_site: nil)
+            let mission2 = Mission(mission_name: "Mission 2", launch_date_utc: "2022-01-02T12:00:00.000Z", rocket: nil, links: nil, launch_site: nil)
+            let mission3 = Mission(mission_name: "Mission 3", launch_date_utc: "2022-01-03T12:00:00.000Z", rocket: nil, links: nil, launch_site: nil)
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
+            // Set up unsorted missionsArray
+            viewModel.missionsArray = [mission2, mission1, mission3]
+
+            // Call the sortMissions method
+            viewModel.sortMissions()
+
+            // Check if missionsArray is sorted
+            XCTAssertEqual(viewModel.missionsArray, [mission3, mission2, mission1])
         }
-    }
+    
+    func testJsonResponse_of_GetMissionsAPI() {
+        let viewModel = MissionViewModel()
+        let expectation = XCTestExpectation(description: "API Call Completion")
+        viewModel.getMissionsDataVM()
 
+        // Wait for the API call to complete
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            print(viewModel.missionsArray)
+            XCTAssertEqual(viewModel.missionsArray.count, 111)
+            XCTAssertEqual(viewModel.missionsArray[0].mission_name, "SXM-7")
+
+            // You can add more assertions based on your actual data model and expectations
+            
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 15.0)
+    }
 }

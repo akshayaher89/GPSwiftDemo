@@ -2,7 +2,7 @@
 //  GPSwiftDemoUITestsLaunchTests.swift
 //  GPSwiftDemoUITests
 //
-//  Created by AUI Tech on 28/12/23.
+//  
 //
 
 import XCTest

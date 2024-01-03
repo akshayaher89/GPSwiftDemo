@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		AE5018F92B3DF31F006EFC98 /* GPSwiftDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */; };
-		AE5018FB2B3DF31F006EFC98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5018FA2B3DF31F006EFC98 /* ContentView.swift */; };
 		AE5018FD2B3DF320006EFC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5018FC2B3DF320006EFC98 /* Assets.xcassets */; };
 		AE5019012B3DF320006EFC98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5019002B3DF320006EFC98 /* Preview Assets.xcassets */; };
 		AE50190B2B3DF320006EFC98 /* GPSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50190A2B3DF320006EFC98 /* GPSwiftDemoTests.swift */; };
 		AE5019152B3DF320006EFC98 /* GPSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019142B3DF320006EFC98 /* GPSwiftDemoUITests.swift */; };
 		AE5019172B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */; };
-		AE5019242B3F3D69006EFC98 /* SummaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019232B3F3D69006EFC98 /* SummaryListView.swift */; };
+		AE5019242B3F3D69006EFC98 /* MissionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019232B3F3D69006EFC98 /* MissionsListView.swift */; };
+		AE5019262B42948B006EFC98 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019252B42948B006EFC98 /* MissionViewModel.swift */; };
+		AE5019282B45D7FC006EFC98 /* MissionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019272B45D7FC006EFC98 /* MissionDetailView.swift */; };
+		AE50192A2B45D9B0006EFC98 /* MissionIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019292B45D9B0006EFC98 /* MissionIcon.swift */; };
+		AE50192C2B45DA61006EFC98 /* MissionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50192B2B45DA61006EFC98 /* MissionCellView.swift */; };
+		AE5019302B45DC73006EFC98 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50192F2B45DC73006EFC98 /* Mission.swift */; };
+		AE5019322B45E129006EFC98 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019312B45E129006EFC98 /* Rocket.swift */; };
+		AE5019342B45E152006EFC98 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019332B45E152006EFC98 /* Links.swift */; };
+		AE5019362B45E16A006EFC98 /* LaunchSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019352B45E16A006EFC98 /* LaunchSite.swift */; };
+		AE5019382B45E42D006EFC98 /* MissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019252B42948B006EFC98 /* MissionViewModel.swift */; };
+		AE5019392B45E4F6006EFC98 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE50192F2B45DC73006EFC98 /* Mission.swift */; };
+		AE50193A2B45E512006EFC98 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019312B45E129006EFC98 /* Rocket.swift */; };
+		AE50193B2B45E515006EFC98 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019332B45E152006EFC98 /* Links.swift */; };
+		AE50193C2B45E517006EFC98 /* LaunchSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019352B45E16A006EFC98 /* LaunchSite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,6 @@
 /* Begin PBXFileReference section */
 		AE5018F52B3DF31F006EFC98 /* GPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoApp.swift; sourceTree = "<group>"; };
-		AE5018FA2B3DF31F006EFC98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE5018FC2B3DF320006EFC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5018FE2B3DF320006EFC98 /* GPSwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPSwiftDemo.entitlements; sourceTree = "<group>"; };
 		AE5019002B3DF320006EFC98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,7 +57,15 @@
 		AE5019102B3DF320006EFC98 /* GPSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5019142B3DF320006EFC98 /* GPSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AE5019232B3F3D69006EFC98 /* SummaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryListView.swift; sourceTree = "<group>"; };
+		AE5019232B3F3D69006EFC98 /* MissionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsListView.swift; sourceTree = "<group>"; };
+		AE5019252B42948B006EFC98 /* MissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewModel.swift; sourceTree = "<group>"; };
+		AE5019272B45D7FC006EFC98 /* MissionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailView.swift; sourceTree = "<group>"; };
+		AE5019292B45D9B0006EFC98 /* MissionIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionIcon.swift; sourceTree = "<group>"; };
+		AE50192B2B45DA61006EFC98 /* MissionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCellView.swift; sourceTree = "<group>"; };
+		AE50192F2B45DC73006EFC98 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		AE5019312B45E129006EFC98 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		AE5019332B45E152006EFC98 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		AE5019352B45E16A006EFC98 /* LaunchSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */,
-				AE5019232B3F3D69006EFC98 /* SummaryListView.swift */,
-				AE5018FA2B3DF31F006EFC98 /* ContentView.swift */,
+				AE5019372B45E21A006EFC98 /* Model */,
+				AE50192D2B45DA7B006EFC98 /* View */,
+				AE50192E2B45DB4F006EFC98 /* ViewModel */,
 				AE5018FC2B3DF320006EFC98 /* Assets.xcassets */,
 				AE5018FE2B3DF320006EFC98 /* GPSwiftDemo.entitlements */,
 				AE5018FF2B3DF320006EFC98 /* Preview Content */,
@@ -130,6 +150,36 @@
 				AE5019162B3DF320006EFC98 /* GPSwiftDemoUITestsLaunchTests.swift */,
 			);
 			path = GPSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		AE50192D2B45DA7B006EFC98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE5019232B3F3D69006EFC98 /* MissionsListView.swift */,
+				AE50192B2B45DA61006EFC98 /* MissionCellView.swift */,
+				AE5019292B45D9B0006EFC98 /* MissionIcon.swift */,
+				AE5019272B45D7FC006EFC98 /* MissionDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE50192E2B45DB4F006EFC98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE5019252B42948B006EFC98 /* MissionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE5019372B45E21A006EFC98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE50192F2B45DC73006EFC98 /* Mission.swift */,
+				AE5019312B45E129006EFC98 /* Rocket.swift */,
+				AE5019332B45E152006EFC98 /* Links.swift */,
+				AE5019352B45E16A006EFC98 /* LaunchSite.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5018FB2B3DF31F006EFC98 /* ContentView.swift in Sources */,
+				AE5019322B45E129006EFC98 /* Rocket.swift in Sources */,
+				AE5019302B45DC73006EFC98 /* Mission.swift in Sources */,
+				AE5019362B45E16A006EFC98 /* LaunchSite.swift in Sources */,
+				AE50192C2B45DA61006EFC98 /* MissionCellView.swift in Sources */,
 				AE5018F92B3DF31F006EFC98 /* GPSwiftDemoApp.swift in Sources */,
-				AE5019242B3F3D69006EFC98 /* SummaryListView.swift in Sources */,
+				AE5019342B45E152006EFC98 /* Links.swift in Sources */,
+				AE5019242B3F3D69006EFC98 /* MissionsListView.swift in Sources */,
+				AE50192A2B45D9B0006EFC98 /* MissionIcon.swift in Sources */,
+				AE5019262B42948B006EFC98 /* MissionViewModel.swift in Sources */,
+				AE5019282B45D7FC006EFC98 /* MissionDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE50193B2B45E515006EFC98 /* Links.swift in Sources */,
+				AE5019392B45E4F6006EFC98 /* Mission.swift in Sources */,
 				AE50190B2B3DF320006EFC98 /* GPSwiftDemoTests.swift in Sources */,
+				AE5019382B45E42D006EFC98 /* MissionViewModel.swift in Sources */,
+				AE50193A2B45E512006EFC98 /* Rocket.swift in Sources */,
+				AE50193C2B45E517006EFC98 /* LaunchSite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
