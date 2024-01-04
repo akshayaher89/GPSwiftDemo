@@ -18,8 +18,10 @@ Welcome to SpaceX Mission Demo Aoo! This SwiftUI iOS app allows users to explore
 
 1. Clone the repository:
    
-https://github.com/akshayaher89/GPSwiftDemo.git
+git clone https://github.com/akshayaher89/GPSwiftDemo.git
 
 Open the Xcode project:
+
 cd GPSwiftDemo
+
 open GPSwiftDemo.xcodeproj
