@@ -45,20 +45,18 @@ final class GPSwiftDemoTests: XCTestCase {
         }
     
     func testJsonResponse_of_GetMissionsAPI() {
-        let viewModel = MissionViewModel()
+        let servicemanager = ServiceManager()
         let expectation = XCTestExpectation(description: "API Call Completion")
-        viewModel.getMissionsDataVM()
+        servicemanager.getMissions(completion: { missions in
+            // Wait for the API call to complete
 
-        // Wait for the API call to complete
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            print(viewModel.missionsArray)
-            XCTAssertEqual(viewModel.missionsArray.count, 111)
-            XCTAssertEqual(viewModel.missionsArray[0].mission_name, "SXM-7")
-
-            // You can add more assertions based on your actual data model and expectations
-            
+            DispatchQueue.main.async {
+                XCTAssertEqual(missions.count, 111)
+                XCTAssertEqual(missions[0].mission_name, "FalconSat")
+                // You can add more assertions based on your actual data model and expectations
+            }
             expectation.fulfill()
-        }
+        })
         wait(for: [expectation], timeout: 15.0)
     }
 }

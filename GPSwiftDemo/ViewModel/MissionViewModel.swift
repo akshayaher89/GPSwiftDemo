@@ -10,6 +10,8 @@ import SwiftUI
 
 class MissionViewModel : ObservableObject {
     @Published var missionsArray : [Mission] = []
+    private let serviceManager = ServiceManager()
+
     
     private let dateFormatter: DateFormatter = {
             let formatter = DateFormatter()
@@ -36,28 +38,36 @@ class MissionViewModel : ObservableObject {
             }
         }
     
-    func getMissionsDataVM(){
-        guard let url = URL(string: "https://api.spacexdata.com/v3/launches") else{
-            return
+//    func getMissionsDataVM(){
+//        guard let url = URL(string: "https://api.spacexdata.com/v3/launches") else{
+//            return
+//        }
+//
+//        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+//            guard let data = data, error == nil else {
+//                return
+//            }
+//
+//            do{
+//                let missionArray = try JSONDecoder().decode([Mission].self, from: data)
+//
+//                DispatchQueue.main.async {
+//                    self?.missionsArray = missionArray
+//                    self?.sortMissions()
+//                }
+//            }
+//            catch{
+//                print(error)
+//            }
+//        }
+//        task.resume()
+//    }
+    func getMission(){
+        serviceManager.getMissions { [weak self] missions in
+            DispatchQueue.main.async {
+                self?.missionsArray = missions
+                self?.sortMissions()
+            }
         }
-        
-        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
-            guard let data = data, error == nil else {
-                return
-            }
-            
-            do{
-                let missionArray = try JSONDecoder().decode([Mission].self, from: data)
-                
-                DispatchQueue.main.async {
-                    self?.missionsArray = missionArray
-                    self?.sortMissions()
-                }
-            }
-            catch{
-                print(error)
-            }
-        }
-        task.resume()
     }
 }

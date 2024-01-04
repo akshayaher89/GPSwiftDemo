@@ -27,6 +27,8 @@
 		AE50193A2B45E512006EFC98 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019312B45E129006EFC98 /* Rocket.swift */; };
 		AE50193B2B45E515006EFC98 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019332B45E152006EFC98 /* Links.swift */; };
 		AE50193C2B45E517006EFC98 /* LaunchSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5019352B45E16A006EFC98 /* LaunchSite.swift */; };
+		AE91E7D72B4700DF00F456AF /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91E7D62B4700DF00F456AF /* ServiceManager.swift */; };
+		AE91E7D82B47117F00F456AF /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91E7D62B4700DF00F456AF /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,7 @@
 		AE5019312B45E129006EFC98 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 		AE5019332B45E152006EFC98 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		AE5019352B45E16A006EFC98 /* LaunchSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSite.swift; sourceTree = "<group>"; };
+		AE91E7D62B4700DF00F456AF /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				AE5018F82B3DF31F006EFC98 /* GPSwiftDemoApp.swift */,
+				AE91E7D52B4700C000F456AF /* Utils */,
 				AE5019372B45E21A006EFC98 /* Model */,
 				AE50192D2B45DA7B006EFC98 /* View */,
 				AE50192E2B45DB4F006EFC98 /* ViewModel */,
@@ -180,6 +184,14 @@
 				AE5019352B45E16A006EFC98 /* LaunchSite.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AE91E7D52B4700C000F456AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE91E7D62B4700DF00F456AF /* ServiceManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE91E7D72B4700DF00F456AF /* ServiceManager.swift in Sources */,
 				AE5019322B45E129006EFC98 /* Rocket.swift in Sources */,
 				AE5019302B45DC73006EFC98 /* Mission.swift in Sources */,
 				AE5019362B45E16A006EFC98 /* LaunchSite.swift in Sources */,
@@ -334,6 +347,7 @@
 				AE50190B2B3DF320006EFC98 /* GPSwiftDemoTests.swift in Sources */,
 				AE5019382B45E42D006EFC98 /* MissionViewModel.swift in Sources */,
 				AE50193A2B45E512006EFC98 /* Rocket.swift in Sources */,
+				AE91E7D82B47117F00F456AF /* ServiceManager.swift in Sources */,
 				AE50193C2B45E517006EFC98 /* LaunchSite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

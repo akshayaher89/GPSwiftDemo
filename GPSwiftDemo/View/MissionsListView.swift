@@ -10,7 +10,6 @@ import SwiftUI
 
 
 struct MissionsListView: View {
-    @State private var missionData: Mission?
     @StateObject var missionViewModel = MissionViewModel()
     @State private var selectedMission: Mission?
 
@@ -24,7 +23,7 @@ struct MissionsListView: View {
             }
             .navigationTitle("Missions")
             .onAppear{
-                missionViewModel.getMissionsDataVM()
+                missionViewModel.getMission()
             }
         } detail:{
             if let selectedMission = selectedMission {
