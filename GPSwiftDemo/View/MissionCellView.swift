@@ -10,6 +10,8 @@ import SwiftUI
 struct MissionCellView: View {
     var mission : Mission
     var missionViewModel : MissionViewModel
+    
+    //Custom cell for Mission data
     var body: some View {
         HStack{
             MissionIcon(url: mission.links?.mission_patch_small ?? "",width: 50, height: 50)

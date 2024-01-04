@@ -13,7 +13,7 @@ struct MissionsListView: View {
     @StateObject var missionViewModel = MissionViewModel()
     @State private var selectedMission: Mission?
 
-
+    //View creating with NavigationSpliView
     var body: some View {
         NavigationSplitView(columnVisibility: .constant(.all)) {
             List(selection: $selectedMission) {
@@ -30,7 +30,12 @@ struct MissionsListView: View {
                 MissionDetailView(selectedMission: selectedMission, missionViewModel: missionViewModel)
             }else {
                 // Placeholder or default detail view content
-                Text("Select a mission to view details")
+                VStack(alignment: .leading, spacing: 20){
+                    Text("Select a mission to view details")
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .frame(width: 200)
+                }
             }
         }
     }
@@ -38,7 +43,7 @@ struct MissionsListView: View {
 
 //struct SummaryListView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        SummaryListView()
+//        MissionsListView()
 //    }
 //}
 

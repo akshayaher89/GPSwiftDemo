@@ -8,6 +8,7 @@ import Foundation
 
 class ServiceManager {
     
+    //Get data from API
     func getMissions(completion: @escaping ([Mission]) -> Void) {
         guard let url = URL(string: "https://api.spacexdata.com/v3/launches") else {
             completion([])
